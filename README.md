@@ -1,11 +1,23 @@
 # VTSystemVersion
 
-_Ready to use “Acknowledgements”/“Licenses”/“Credits” view controller for [CocoaPods](http://cocoapods.org/)._
+_Checking the current iOS device system version._
+
+Adapted from this [Stack Overflow answer](http://stackoverflow.com/a/5337804/135712).
+
+
+## How to Use
+
+``` objc
+if ([UIDevice vt_systemVersionIsGreaterThan:@"9.0"]) {
+  // ...
+}
+```
 
 
 ## Credits
 
 VTSystemVersion was created by [Vincent Tourraine](http://www.vtourraine.net).
+
 
 ## License
 
